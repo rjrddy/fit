@@ -1,0 +1,2 @@
+# ADR 003: bounded public input and narrow MIT reuse
+Accepted. No exact career-ops-juiced checkout was found. Reuse only the reviewed public pure alias extractor and MIT license from the related career-ops fork. Preserve the dirty source checkout untouched; no personal CV/config copied. Use an official unauthenticated Greenhouse GET, not scraping or submissions. Store factual summaries and response hashes rather than raw third-party prose. This limits historical reproducibility; parser quality remains unmeasured.

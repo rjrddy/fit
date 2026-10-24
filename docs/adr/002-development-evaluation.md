@@ -1,0 +1,2 @@
+# ADR 002: preserve subjective development labels
+Accepted. Freeze the agent-curated grades before implementation and compare to an explicit full-posting TF-IDF baseline. Publish all per-profile results and the unchanged label hash. Treat this as development evidence only. Independent human-ranking acceptance remains partial; adding a better-looking metric or relabeling losses would not resolve that gap.

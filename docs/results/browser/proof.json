@@ -1,0 +1,244 @@
+{
+  "receipts": [
+    {
+      "viewport": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": 1600,
+      "horizontalOverflow": false
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "systems",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "backend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "frontend",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "platform",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "data",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "profile": "mobile",
+      "forgedClaimRejected": true,
+      "wrongTokenRejected": true,
+      "variantSaved": true
+    },
+    {
+      "keyboardFocus": true,
+      "publicSourceLink": true
+    }
+  ],
+  "pageErrors": [],
+  "wallSeconds": 107.1442567500053,
+  "recorded": true,
+  "scope": "Actual Chromium and local HTTP"
+}

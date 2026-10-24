@@ -1,0 +1,685 @@
+npm run lint
+
+> fit-evidence@0.1.0 lint
+> tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.web.json && prettier --check src scripts tests *.json *.ts index.html
+
+Checking formatting...
+All matched files use Prettier code style!
+npm test
+
+> fit-evidence@0.1.0 test
+> node --test dist-node/tests/*.test.js
+
+✔ all profile/job variants retain exact source bullets and offsets (30.396625ms)
+✔ 1000 deterministic forged variants fail closed (26.466958ms)
+✔ negated experience and learning do not count as evidence (0.337875ms)
+✔ fork metadata never earns source proof (0.106084ms)
+✔ requirements exclude company keyword bait; seniority penalizes (0.542833ms)
+✔ synthetic inputs required and spans use UTF16 (0.100333ms)
+✔ ordinary go is not Go; alternative clauses are explicit (0.129708ms)
+✔ feed HTML is converted to data and scripts discarded (2.396416ms)
+✔ public normalization does not retain prose or contact text (4.423625ms)
+✔ board input cannot select arbitrary hosts or files (0.28325ms)
+✔ HTTP auth, forged claims, stale hashes, restart durability and safe errors (166.707375ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 246.490583
+npm run bench
+
+> fit-evidence@0.1.0 bench
+> node dist-node/scripts/bench.js
+
+{
+  "scope": "Agent-authored frozen synthetic development labels; NOT independent human validation or hiring outcomes",
+  "judgments": 72,
+  "labelsSha256": "8b06b2ed998887c1d2ba06bfdf5de0204ceb02e680d43cc4a1776411c5179c60",
+  "profiles": 6,
+  "jobs": 12,
+  "metric": "nDCG@5",
+  "fit": 0.9703775206593823,
+  "baseline": 0.7988411515028071,
+  "baselinePolicy": "Full posting TF-IDF cosine; smoothed IDF over 12 job documents; deterministic ID ties",
+  "rows": [
+    {
+      "profile": "systems",
+      "fit": 0.9899048708410192,
+      "baseline": 0.6229161960796434,
+      "fitRanking": [
+        {
+          "id": "systems-junior",
+          "score": 100
+        },
+        {
+          "id": "linux-python",
+          "score": 88.88888888888889
+        },
+        {
+          "id": "python-backend",
+          "score": 30.76923076923077
+        },
+        {
+          "id": "entry-general",
+          "score": 25
+        },
+        {
+          "id": "data",
+          "score": 20.51282051282051
+        },
+        {
+          "id": "staff-systems",
+          "score": 20
+        },
+        {
+          "id": "ml-research",
+          "score": 12.307692307692308
+        },
+        {
+          "id": "platform",
+          "score": 11.76470588235294
+        },
+        {
+          "id": "frontend",
+          "score": 0
+        },
+        {
+          "id": "java-backend",
+          "score": 0
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0
+        },
+        {
+          "id": "mobile",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "staff-systems",
+          "score": 0.3543633579736513
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.29735268814684107
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.22199368280955523
+        },
+        {
+          "id": "python-backend",
+          "score": 0.1946407176612873
+        },
+        {
+          "id": "linux-python",
+          "score": 0.1889058490941795
+        },
+        {
+          "id": "entry-general",
+          "score": 0.17543953180846403
+        },
+        {
+          "id": "platform",
+          "score": 0.1376575570379833
+        },
+        {
+          "id": "java-backend",
+          "score": 0.12547258067933656
+        },
+        {
+          "id": "frontend",
+          "score": 0.11644932100120849
+        },
+        {
+          "id": "data",
+          "score": 0.1080280072490263
+        },
+        {
+          "id": "ml-research",
+          "score": 0.07192514349259267
+        },
+        {
+          "id": "mobile",
+          "score": 0.04632543132189112
+        }
+      ]
+    },
+    {
+      "profile": "backend",
+      "fit": 0.9581123571019741,
+      "baseline": 0.6908700162779643,
+      "fitRanking": [
+        {
+          "id": "python-backend",
+          "score": 100
+        },
+        {
+          "id": "data",
+          "score": 61.53846153846154
+        },
+        {
+          "id": "linux-python",
+          "score": 55.55555555555556
+        },
+        {
+          "id": "java-backend",
+          "score": 38.46153846153847
+        },
+        {
+          "id": "entry-general",
+          "score": 25
+        },
+        {
+          "id": "ml-research",
+          "score": 18.46153846153846
+        },
+        {
+          "id": "systems-junior",
+          "score": 11.11111111111111
+        },
+        {
+          "id": "staff-systems",
+          "score": 9.999999999999998
+        },
+        {
+          "id": "platform",
+          "score": 4.411764705882352
+        },
+        {
+          "id": "frontend",
+          "score": 0
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0
+        },
+        {
+          "id": "mobile",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "python-backend",
+          "score": 0.43468104752278147
+        },
+        {
+          "id": "java-backend",
+          "score": 0.3578550800842714
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.2816074697304448
+        },
+        {
+          "id": "entry-general",
+          "score": 0.20330135885088288
+        },
+        {
+          "id": "data",
+          "score": 0.14940326076106814
+        },
+        {
+          "id": "staff-systems",
+          "score": 0.1470675327962906
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.1453998812994213
+        },
+        {
+          "id": "linux-python",
+          "score": 0.11787000046919388
+        },
+        {
+          "id": "ml-research",
+          "score": 0.10696098890721323
+        },
+        {
+          "id": "platform",
+          "score": 0.08742932404532673
+        },
+        {
+          "id": "frontend",
+          "score": 0.07903568241174802
+        },
+        {
+          "id": "mobile",
+          "score": 0.06656329728872439
+        }
+      ]
+    },
+    {
+      "profile": "frontend",
+      "fit": 0.9467676761267002,
+      "baseline": 0.7452525342261976,
+      "fitRanking": [
+        {
+          "id": "frontend",
+          "score": 100
+        },
+        {
+          "id": "entry-general",
+          "score": 25
+        },
+        {
+          "id": "data",
+          "score": 0
+        },
+        {
+          "id": "java-backend",
+          "score": 0
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0
+        },
+        {
+          "id": "linux-python",
+          "score": 0
+        },
+        {
+          "id": "ml-research",
+          "score": 0
+        },
+        {
+          "id": "mobile",
+          "score": 0
+        },
+        {
+          "id": "platform",
+          "score": 0
+        },
+        {
+          "id": "python-backend",
+          "score": 0
+        },
+        {
+          "id": "staff-systems",
+          "score": 0
+        },
+        {
+          "id": "systems-junior",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "frontend",
+          "score": 0.4489231487085351
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.296241870609133
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.243413571484807
+        },
+        {
+          "id": "platform",
+          "score": 0.16401947013777665
+        },
+        {
+          "id": "java-backend",
+          "score": 0.15763827697427726
+        },
+        {
+          "id": "python-backend",
+          "score": 0.14901711444914856
+        },
+        {
+          "id": "data",
+          "score": 0.1392710871560493
+        },
+        {
+          "id": "staff-systems",
+          "score": 0.12260427292481492
+        },
+        {
+          "id": "mobile",
+          "score": 0.1195487193559901
+        },
+        {
+          "id": "linux-python",
+          "score": 0.1067785702679006
+        },
+        {
+          "id": "ml-research",
+          "score": 0.09689608402892977
+        },
+        {
+          "id": "entry-general",
+          "score": 0.024330113021963685
+        }
+      ]
+    },
+    {
+      "profile": "platform",
+      "fit": 1,
+      "baseline": 1,
+      "fitRanking": [
+        {
+          "id": "platform",
+          "score": 100
+        },
+        {
+          "id": "linux-python",
+          "score": 55.55555555555556
+        },
+        {
+          "id": "systems-junior",
+          "score": 44.44444444444444
+        },
+        {
+          "id": "python-backend",
+          "score": 30.76923076923077
+        },
+        {
+          "id": "keyword-trap",
+          "score": 20
+        },
+        {
+          "id": "staff-systems",
+          "score": 13.333333333333332
+        },
+        {
+          "id": "java-backend",
+          "score": 7.6923076923076925
+        },
+        {
+          "id": "data",
+          "score": 0
+        },
+        {
+          "id": "entry-general",
+          "score": 0
+        },
+        {
+          "id": "frontend",
+          "score": 0
+        },
+        {
+          "id": "ml-research",
+          "score": 0
+        },
+        {
+          "id": "mobile",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "platform",
+          "score": 0.30872164199426066
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.270409334029723
+        },
+        {
+          "id": "python-backend",
+          "score": 0.2192660367899319
+        },
+        {
+          "id": "entry-general",
+          "score": 0.18904706393602785
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.17464152758482188
+        },
+        {
+          "id": "linux-python",
+          "score": 0.16724934430368
+        },
+        {
+          "id": "staff-systems",
+          "score": 0.15763235591078156
+        },
+        {
+          "id": "ml-research",
+          "score": 0.15512560836010453
+        },
+        {
+          "id": "java-backend",
+          "score": 0.14365018024439768
+        },
+        {
+          "id": "frontend",
+          "score": 0.12548142374579918
+        },
+        {
+          "id": "data",
+          "score": 0.07949238523141797
+        },
+        {
+          "id": "mobile",
+          "score": 0.049918548497580435
+        }
+      ]
+    },
+    {
+      "profile": "data",
+      "fit": 0.9413958723635834,
+      "baseline": 0.7725523877260748,
+      "fitRanking": [
+        {
+          "id": "data",
+          "score": 92.3076923076923
+        },
+        {
+          "id": "python-backend",
+          "score": 61.53846153846154
+        },
+        {
+          "id": "linux-python",
+          "score": 44.44444444444444
+        },
+        {
+          "id": "java-backend",
+          "score": 30.76923076923077
+        },
+        {
+          "id": "entry-general",
+          "score": 25
+        },
+        {
+          "id": "ml-research",
+          "score": 18.46153846153846
+        },
+        {
+          "id": "systems-junior",
+          "score": 11.11111111111111
+        },
+        {
+          "id": "staff-systems",
+          "score": 9.999999999999998
+        },
+        {
+          "id": "frontend",
+          "score": 0
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0
+        },
+        {
+          "id": "mobile",
+          "score": 0
+        },
+        {
+          "id": "platform",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "data",
+          "score": 0.5085262700143929
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.24140449509917403
+        },
+        {
+          "id": "ml-research",
+          "score": 0.16066765248053064
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.13805223004700953
+        },
+        {
+          "id": "python-backend",
+          "score": 0.13213034983886604
+        },
+        {
+          "id": "frontend",
+          "score": 0.13129229715763033
+        },
+        {
+          "id": "java-backend",
+          "score": 0.1307791466547813
+        },
+        {
+          "id": "staff-systems",
+          "score": 0.12036959462502916
+        },
+        {
+          "id": "linux-python",
+          "score": 0.09431555344400948
+        },
+        {
+          "id": "platform",
+          "score": 0.06766694438909927
+        },
+        {
+          "id": "mobile",
+          "score": 0.04828465584982842
+        },
+        {
+          "id": "entry-general",
+          "score": 0.04078632815826786
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "fit": 0.9860843475230173,
+      "baseline": 0.9614557747069621,
+      "fitRanking": [
+        {
+          "id": "mobile",
+          "score": 88.88888888888889
+        },
+        {
+          "id": "java-backend",
+          "score": 20.51282051282051
+        },
+        {
+          "id": "keyword-trap",
+          "score": 10
+        },
+        {
+          "id": "data",
+          "score": 0
+        },
+        {
+          "id": "entry-general",
+          "score": 0
+        },
+        {
+          "id": "frontend",
+          "score": 0
+        },
+        {
+          "id": "linux-python",
+          "score": 0
+        },
+        {
+          "id": "ml-research",
+          "score": 0
+        },
+        {
+          "id": "platform",
+          "score": 0
+        },
+        {
+          "id": "python-backend",
+          "score": 0
+        },
+        {
+          "id": "staff-systems",
+          "score": 0
+        },
+        {
+          "id": "systems-junior",
+          "score": 0
+        }
+      ],
+      "baselineRanking": [
+        {
+          "id": "mobile",
+          "score": 0.44881383791239554
+        },
+        {
+          "id": "systems-junior",
+          "score": 0.26153843187622605
+        },
+        {
+          "id": "frontend",
+          "score": 0.18747895634987752
+        },
+        {
+          "id": "entry-general",
+          "score": 0.16918665327572494
+        },
+        {
+          "id": "java-backend",
+          "score": 0.16635681513183873
+        },
+        {
+          "id": "keyword-trap",
+          "score": 0.1253744894863733
+        },
+        {
+          "id": "linux-python",
+          "score": 0.08661052343406615
+        },
+        {
+          "id": "python-backend",
+          "score": 0.08625222075742477
+        },
+        {
+          "id": "platform",
+          "score": 0.08119858586386462
+        },
+        {
+          "id": "data",
+          "score": 0.08061114724248203
+        },
+        {
+          "id": "ml-research",
+          "score": 0.078594614400636
+        },
+        {
+          "id": "staff-systems",
+          "score": 0.049192072274690815
+        }
+      ]
+    }
+  ],
+  "variantsVerified": 72,
+  "variantMs": 5.747375000000005,
+  "forgedRejected": 1000,
+  "forgedAttempts": 1000,
+  "humanValidation": "not measured"
+}
+node dist-node/scripts/render_readme.js

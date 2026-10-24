@@ -1,0 +1,14 @@
+{
+  "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+  "method": "GET",
+  "status": 200,
+  "fetchedAt": "2026-10-24T16:58:41.767Z",
+  "responseSha256": "28de5707167b6278c25fb8443761bafdb99e01ba096f8226faef68ff11d4af6d",
+  "responseBytes": 8041642,
+  "reportedJobs": 454,
+  "selectedJobs": 12,
+  "authentication": "none",
+  "rawProseRetained": false,
+  "permissionReference": "https://docs.greenhouse.io/job-board",
+  "scope": "Official public Job Board GET; no HTML scraping or application submission; factual normalized snapshot, not independently checked extraction accuracy"
+}

@@ -1,0 +1,2 @@
+# ADR 001: rearrange, never rewrite
+Accepted. Every variant must be a complete permutation of exact source bullets, linked by immutable ID, UTF-16 span and SHA256. This sharply narrows tailoring but makes the integrity guarantee directly executable. A model-based paraphraser would require semantic claim verification that this project cannot honestly prove. Source truth and job suitability still require human review.

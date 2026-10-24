@@ -1,0 +1,23 @@
+
+> fit-evidence@0.1.0 format
+> prettier --write src scripts tests *.json *.ts index.html
+
+src/core.ts 77ms (unchanged)
+src/data.ts 4ms (unchanged)
+src/feed.ts 14ms (unchanged)
+src/server.ts 12ms (unchanged)
+src/web/main.tsx 30ms (unchanged)
+src/web/style.css 37ms (unchanged)
+scripts/bench.ts 8ms (unchanged)
+scripts/container_smoke.ts 3ms (unchanged)
+scripts/import_feed.ts 2ms (unchanged)
+scripts/render_readme.ts 2ms (unchanged)
+tests/core.test.ts 6ms (unchanged)
+tests/feed.test.ts 2ms (unchanged)
+tests/http.test.ts 5ms (unchanged)
+package-lock.json 12ms (unchanged)
+package.json 1ms (unchanged)
+tsconfig.node.json 1ms (unchanged)
+tsconfig.web.json 0ms (unchanged)
+vite.config.ts 1ms (unchanged)
+index.html 15ms (unchanged)

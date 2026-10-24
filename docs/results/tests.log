@@ -1,0 +1,78 @@
+
+> fit-evidence@0.1.0 test
+> node --test dist-node/tests/*.test.js
+
+TAP version 13
+# Subtest: all profile/job variants retain exact source bullets and offsets
+ok 1 - all profile/job variants retain exact source bullets and offsets
+  ---
+  duration_ms: 17.787208
+  ...
+# Subtest: 1000 deterministic forged variants fail closed
+ok 2 - 1000 deterministic forged variants fail closed
+  ---
+  duration_ms: 21.116334
+  ...
+# Subtest: negated experience and learning do not count as evidence
+ok 3 - negated experience and learning do not count as evidence
+  ---
+  duration_ms: 0.413375
+  ...
+# Subtest: fork metadata never earns source proof
+ok 4 - fork metadata never earns source proof
+  ---
+  duration_ms: 0.193042
+  ...
+# Subtest: requirements exclude company keyword bait; seniority penalizes
+ok 5 - requirements exclude company keyword bait; seniority penalizes
+  ---
+  duration_ms: 0.336333
+  ...
+# Subtest: synthetic inputs required and spans use UTF16
+ok 6 - synthetic inputs required and spans use UTF16
+  ---
+  duration_ms: 0.092167
+  ...
+# Subtest: ordinary go is not Go; alternative clauses are explicit
+ok 7 - ordinary go is not Go; alternative clauses are explicit
+  ---
+  duration_ms: 0.1435
+  ...
+# Subtest: feed HTML is converted to data and scripts discarded
+ok 8 - feed HTML is converted to data and scripts discarded
+  ---
+  duration_ms: 1.274209
+  ...
+# Subtest: public normalization does not retain prose or contact text
+ok 9 - public normalization does not retain prose or contact text
+  ---
+  duration_ms: 2.111583
+  ...
+# Subtest: board input cannot select arbitrary hosts or files
+ok 10 - board input cannot select arbitrary hosts or files
+  ---
+  duration_ms: 0.322458
+  ...
+# Subtest: HTTP auth, forged claims, stale hashes, restart durability and safe errors
+not ok 11 - HTTP auth, forged claims, stale hashes, restart durability and safe errors
+  ---
+  duration_ms: 5310.623125
+  location: '/Users/rajreddy/dev/outreach/fit/dist-node/tests/http.test.js:10:1'
+  failureType: 'testCodeFailure'
+  error: 'startup_failed'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    start (file:///Users/rajreddy/dev/outreach/fit/dist-node/tests/http.test.js:34:15)
+    async TestContext.<anonymous> (file:///Users/rajreddy/dev/outreach/fit/dist-node/tests/http.test.js:53:9)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 10
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5362.267875

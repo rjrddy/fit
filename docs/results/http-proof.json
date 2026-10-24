@@ -1,0 +1,24 @@
+{
+  "receipts": [
+    {
+      "case": "wrong_token",
+      "status": 403
+    },
+    {
+      "case": "forged_claim",
+      "status": 400,
+      "error": "unsupported_bullet"
+    },
+    {
+      "case": "stale_source",
+      "status": 409
+    },
+    {
+      "case": "committed_receipt_survives_process_restart",
+      "id": 1,
+      "passed": true
+    }
+  ],
+  "logsContainCanary": false,
+  "scope": "Actual loopback HTTP and SQLite clean process restart, not power loss"
+}
