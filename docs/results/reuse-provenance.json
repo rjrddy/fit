@@ -1,0 +1,15 @@
+{
+  "exact_juiced_matches": [],
+  "discovery_scope": "non-hidden real home directories depth <= 5, excluded Library/media/dependencies/builds",
+  "candidate": "/Users/rajreddy/dev/career-ops",
+  "candidate_head": "8ae41b90df1318911536a291c34f3df18749ea19",
+  "candidate_status_sha256": "fcc3f3f177855bffc51456d8cba15d93d55c3a9f7cabe307de3f7d842f693d6c",
+  "candidate_dirty_entries": 568,
+  "source_module": "skill-extract.mjs",
+  "source_sha256": "c16873ab2644aff404fc009d26684d3ca371577ed169f323042b79c4f49eb474",
+  "module_matches_head": true,
+  "license": "MIT; retained verbatim",
+  "extension": "Fit adapter extends the reviewed pure skill module; no private candidate data or full personalized workflow copied",
+  "upstream": "https://github.com/santifer/career-ops",
+  "local_fork": "https://github.com/rjrddy/career-ops"
+}

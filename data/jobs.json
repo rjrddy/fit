@@ -1,0 +1,146 @@
+[
+  {
+    "id": "systems-junior",
+    "title": "Systems engineer, early career",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- C++ and Linux are required.\n- At least 2 years of experience.\nNice to have:\n- Python.\nAbout the role:\nBuild and test synthetic device tooling.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/systems-junior",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "python-backend",
+    "title": "Python backend engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Python, SQL and Docker are required.\n- At least 2 years of experience.\nNice to have:\n- PostgreSQL.\nAbout the role:\nBuild service APIs and integration tests.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/python-backend",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "frontend",
+    "title": "Frontend engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- TypeScript, React and CSS are required.\n- At least 1 year of experience.\nNice to have:\n- JavaScript.\nAbout the role:\nWork on product forms and accessible interfaces.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/frontend",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "platform",
+    "title": "Platform engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Go, Kubernetes, Terraform and Linux are required.\n- At least 4 years of experience.\nNice to have:\n- Docker.\nAbout the role:\nOperate infrastructure and cluster delivery.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/platform",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "data",
+    "title": "Data tooling engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Python, SQL and Pandas are required.\n- At least 3 years of experience.\nNice to have:\n- Spark.\nAbout the role:\nValidate data transformations and analysis jobs.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/data",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "mobile",
+    "title": "Mobile engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Kotlin and Swift are required.\n- At least 2 years of experience.\nNice to have:\n- React Native.\nAbout the role:\nBuild cross-platform mobile features.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/mobile",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "staff-systems",
+    "title": "Staff systems engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- C++, Linux and Python are required.\n- At least 10 years of experience.\nAbout the role:\nLead a multi-team systems architecture program.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/staff-systems",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "java-backend",
+    "title": "Java backend engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Java, Spring and SQL are required.\n- At least 3 years of experience.\nNice to have:\n- Docker.\nAbout the role:\nBuild service APIs in a Java stack.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/java-backend",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "ml-research",
+    "title": "Machine-learning researcher",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Python, PyTorch and TensorFlow are required.\n- At least 5 years of experience.\nNice to have:\n- NLP.\nAbout the role:\nResearch and train new model architectures.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/ml-research",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "entry-general",
+    "title": "Entry-level software engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- No professional experience required.\nNice to have:\n- Python or JavaScript.\nAbout the role:\nLearn through supervised general software tasks.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/entry-general",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "keyword-trap",
+    "title": "Senior Java platform lead",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Java and Kubernetes are required.\n- At least 10 years of experience.\nAbout the team:\nOur neighboring teams use Python, C++, Linux, SQL, React and Docker. Those are not requirements for this role.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/keyword-trap",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "linux-python",
+    "title": "Developer tools engineer",
+    "company": "SYNTHETIC WORKSHOP",
+    "location": "Synthetic remote region",
+    "text": "Requirements:\n- Python and Linux are required.\n- At least 1 year of experience.\nNice to have:\n- Docker.\nAbout the role:\nBuild command-line tools and service test fixtures.",
+    "source": {
+      "kind": "synthetic",
+      "url": "https://example.invalid/jobs/linux-python",
+      "synthetic": true
+    }
+  }
+]

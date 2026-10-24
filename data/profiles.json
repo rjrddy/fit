@@ -1,0 +1,254 @@
+[
+  {
+    "id": "systems",
+    "label": "Systems & embedded",
+    "cv": "# SYNTHETIC CV \u2014 systems\nSynthetic-record: true\nRole: Systems & embedded\nExperience-years: 2\n\n## Source bullets\n- [b01] Built a C++ ring-buffer exercise on Linux and checked edge cases with CMake tests.\n- [b02] Wrote Python utilities for synthetic signal-processing fixtures.\n- [b03] I have no Kubernetes, AWS or SQL production experience.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-systems",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-systems"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-systems-1",
+          "language": "C++",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/systems/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-systems-2",
+          "language": "Python",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/systems/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  },
+  {
+    "id": "backend",
+    "label": "Backend services",
+    "cv": "# SYNTHETIC CV \u2014 backend\nSynthetic-record: true\nRole: Backend services\nExperience-years: 3\n\n## Source bullets\n- [b01] Built a Python API exercise with SQL queries and PostgreSQL storage.\n- [b02] Packaged synthetic microservices with Docker and wrote integration tests.\n- [b03] I have no Java or Spring production experience.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-backend",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-backend"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-backend-1",
+          "language": "Python",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/backend/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-backend-2",
+          "language": "SQL",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/backend/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  },
+  {
+    "id": "frontend",
+    "label": "Product interfaces",
+    "cv": "# SYNTHETIC CV \u2014 frontend\nSynthetic-record: true\nRole: Product interfaces\nExperience-years: 2\n\n## Source bullets\n- [b01] Built a TypeScript and React interface with JavaScript and CSS.\n- [b02] Tested accessible forms with synthetic user records.\n- [b03] I am learning SQL and Kubernetes; I have not shipped either.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-frontend",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-frontend"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-frontend-1",
+          "language": "TypeScript",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/frontend/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-frontend-2",
+          "language": "JavaScript",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/frontend/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  },
+  {
+    "id": "platform",
+    "label": "Platform operations",
+    "cv": "# SYNTHETIC CV \u2014 platform\nSynthetic-record: true\nRole: Platform operations\nExperience-years: 4\n\n## Source bullets\n- [b01] Built Go service exercises on Linux with Docker containers.\n- [b02] Configured Kubernetes manifests and Terraform exercises for a synthetic cluster.\n- [b03] I have no Python or PyTorch production experience.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-platform",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-platform"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-platform-1",
+          "language": "Go",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/platform/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-platform-2",
+          "language": "HCL",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/platform/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  },
+  {
+    "id": "data",
+    "label": "Data tooling",
+    "cv": "# SYNTHETIC CV \u2014 data\nSynthetic-record: true\nRole: Data tooling\nExperience-years: 3\n\n## Source bullets\n- [b01] Built Python analysis exercises with SQL, Pandas and NumPy on synthetic data.\n- [b02] Checked transformations and documented data-quality failures.\n- [b03] I am learning PyTorch; I have not shipped a machine-learning system.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-data",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-data"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-data-1",
+          "language": "Python",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/data/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-data-2",
+          "language": "SQL",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/data/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mobile",
+    "label": "Mobile applications",
+    "cv": "# SYNTHETIC CV \u2014 mobile\nSynthetic-record: true\nRole: Mobile applications\nExperience-years: 2\n\n## Source bullets\n- [b01] Built Kotlin and Java Android exercises using synthetic records.\n- [b02] Built Swift interface exercises and tested local state transitions.\n- [b03] I have no React or TypeScript production experience.\n",
+    "github": {
+      "synthetic": true,
+      "user": {
+        "login": "demo-mobile",
+        "bio": "Synthetic profile fixture, not a real applicant",
+        "html_url": "https://example.invalid/github/demo-mobile"
+      },
+      "repos": [
+        {
+          "id": 1,
+          "name": "demo-mobile-1",
+          "language": "Kotlin",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/mobile/1"
+        },
+        {
+          "id": 2,
+          "name": "demo-mobile-2",
+          "language": "Swift",
+          "description": "Synthetic repository metadata; not proof of authorship or proficiency",
+          "fork": false,
+          "archived": false,
+          "html_url": "https://example.invalid/repo/mobile/2"
+        },
+        {
+          "id": 99,
+          "name": "forked-demo",
+          "language": "Rust",
+          "description": "Excluded fork fixture",
+          "fork": true,
+          "archived": false,
+          "html_url": "https://example.invalid/fork"
+        }
+      ]
+    }
+  }
+]

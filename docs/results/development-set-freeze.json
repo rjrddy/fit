@@ -1,0 +1,9 @@
+{
+  "frozen_before_scorer_implementation": true,
+  "human_labels": false,
+  "manifest": {
+    "profiles.json": "65a14e1ecee027f8fd7e0fa5d2e8107ffa91921f567c6f80e97bb3617706be32",
+    "jobs.json": "eb9829b8010b00a1d04bb314c0af2ede7d458999c1b1b6d35081b606a91bd127",
+    "development-labels.json": "8b06b2ed998887c1d2ba06bfdf5de0204ceb02e680d43cc4a1776411c5179c60"
+  }
+}

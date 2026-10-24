@@ -1,0 +1,366 @@
+{
+  "scope": "Agent-authored manually curated synthetic development labels, frozen before scorer implementation. NOT independent human labels, held-out data, or hiring outcomes.",
+  "rubric": "0 unrelated/major required-skill gap; 1 adjacent but substantial stack/seniority mismatch; 2 plausible transferable/general role; 3 direct stack and level fit. Subjective judgments, not truth labels.",
+  "judgments": [
+    {
+      "profile": "systems",
+      "job": "systems-junior",
+      "grade": 3
+    },
+    {
+      "profile": "systems",
+      "job": "python-backend",
+      "grade": 1
+    },
+    {
+      "profile": "systems",
+      "job": "frontend",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "platform",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "data",
+      "grade": 1
+    },
+    {
+      "profile": "systems",
+      "job": "mobile",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "staff-systems",
+      "grade": 1
+    },
+    {
+      "profile": "systems",
+      "job": "java-backend",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "ml-research",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "entry-general",
+      "grade": 2
+    },
+    {
+      "profile": "systems",
+      "job": "keyword-trap",
+      "grade": 0
+    },
+    {
+      "profile": "systems",
+      "job": "linux-python",
+      "grade": 3
+    },
+    {
+      "profile": "backend",
+      "job": "systems-junior",
+      "grade": 0
+    },
+    {
+      "profile": "backend",
+      "job": "python-backend",
+      "grade": 3
+    },
+    {
+      "profile": "backend",
+      "job": "frontend",
+      "grade": 0
+    },
+    {
+      "profile": "backend",
+      "job": "platform",
+      "grade": 1
+    },
+    {
+      "profile": "backend",
+      "job": "data",
+      "grade": 2
+    },
+    {
+      "profile": "backend",
+      "job": "mobile",
+      "grade": 0
+    },
+    {
+      "profile": "backend",
+      "job": "staff-systems",
+      "grade": 0
+    },
+    {
+      "profile": "backend",
+      "job": "java-backend",
+      "grade": 1
+    },
+    {
+      "profile": "backend",
+      "job": "ml-research",
+      "grade": 1
+    },
+    {
+      "profile": "backend",
+      "job": "entry-general",
+      "grade": 2
+    },
+    {
+      "profile": "backend",
+      "job": "keyword-trap",
+      "grade": 0
+    },
+    {
+      "profile": "backend",
+      "job": "linux-python",
+      "grade": 3
+    },
+    {
+      "profile": "frontend",
+      "job": "systems-junior",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "python-backend",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "frontend",
+      "grade": 3
+    },
+    {
+      "profile": "frontend",
+      "job": "platform",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "data",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "mobile",
+      "grade": 1
+    },
+    {
+      "profile": "frontend",
+      "job": "staff-systems",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "java-backend",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "ml-research",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "entry-general",
+      "grade": 2
+    },
+    {
+      "profile": "frontend",
+      "job": "keyword-trap",
+      "grade": 0
+    },
+    {
+      "profile": "frontend",
+      "job": "linux-python",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "systems-junior",
+      "grade": 1
+    },
+    {
+      "profile": "platform",
+      "job": "python-backend",
+      "grade": 1
+    },
+    {
+      "profile": "platform",
+      "job": "frontend",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "platform",
+      "grade": 3
+    },
+    {
+      "profile": "platform",
+      "job": "data",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "mobile",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "staff-systems",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "java-backend",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "ml-research",
+      "grade": 0
+    },
+    {
+      "profile": "platform",
+      "job": "entry-general",
+      "grade": 1
+    },
+    {
+      "profile": "platform",
+      "job": "keyword-trap",
+      "grade": 1
+    },
+    {
+      "profile": "platform",
+      "job": "linux-python",
+      "grade": 1
+    },
+    {
+      "profile": "data",
+      "job": "systems-junior",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "python-backend",
+      "grade": 2
+    },
+    {
+      "profile": "data",
+      "job": "frontend",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "platform",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "data",
+      "grade": 3
+    },
+    {
+      "profile": "data",
+      "job": "mobile",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "staff-systems",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "java-backend",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "ml-research",
+      "grade": 1
+    },
+    {
+      "profile": "data",
+      "job": "entry-general",
+      "grade": 2
+    },
+    {
+      "profile": "data",
+      "job": "keyword-trap",
+      "grade": 0
+    },
+    {
+      "profile": "data",
+      "job": "linux-python",
+      "grade": 1
+    },
+    {
+      "profile": "mobile",
+      "job": "systems-junior",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "python-backend",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "frontend",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "platform",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "data",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "mobile",
+      "grade": 3
+    },
+    {
+      "profile": "mobile",
+      "job": "staff-systems",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "java-backend",
+      "grade": 1
+    },
+    {
+      "profile": "mobile",
+      "job": "ml-research",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "entry-general",
+      "grade": 1
+    },
+    {
+      "profile": "mobile",
+      "job": "keyword-trap",
+      "grade": 0
+    },
+    {
+      "profile": "mobile",
+      "job": "linux-python",
+      "grade": 0
+    }
+  ]
+}
