@@ -10,17 +10,17 @@ npm test
 > fit-evidence@0.1.0 test
 > node --test dist-node/tests/*.test.js
 
-✔ all profile/job variants retain exact source bullets and offsets (30.396625ms)
-✔ 1000 deterministic forged variants fail closed (26.466958ms)
-✔ negated experience and learning do not count as evidence (0.337875ms)
-✔ fork metadata never earns source proof (0.106084ms)
-✔ requirements exclude company keyword bait; seniority penalizes (0.542833ms)
-✔ synthetic inputs required and spans use UTF16 (0.100333ms)
-✔ ordinary go is not Go; alternative clauses are explicit (0.129708ms)
-✔ feed HTML is converted to data and scripts discarded (2.396416ms)
-✔ public normalization does not retain prose or contact text (4.423625ms)
-✔ board input cannot select arbitrary hosts or files (0.28325ms)
-✔ HTTP auth, forged claims, stale hashes, restart durability and safe errors (166.707375ms)
+✔ all profile/job variants retain exact source bullets and offsets (36.407416ms)
+✔ 1000 deterministic forged variants fail closed (41.960167ms)
+✔ negated experience and learning do not count as evidence (0.647416ms)
+✔ fork metadata never earns source proof (0.179833ms)
+✔ requirements exclude company keyword bait; seniority penalizes (0.552208ms)
+✔ synthetic inputs required and spans use UTF16 (0.151292ms)
+✔ ordinary go is not Go; alternative clauses are explicit (0.132542ms)
+✔ feed HTML is converted to data and scripts discarded (1.036958ms)
+✔ public normalization does not retain prose or contact text (3.708875ms)
+✔ board input cannot select arbitrary hosts or files (0.272333ms)
+✔ HTTP auth, forged claims, stale hashes, restart durability and safe errors (182.542458ms)
 ℹ tests 11
 ℹ suites 0
 ℹ pass 11
@@ -28,7 +28,7 @@ npm test
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 246.490583
+ℹ duration_ms 283.19875
 npm run bench
 
 > fit-evidence@0.1.0 bench
@@ -677,7 +677,7 @@ npm run bench
     }
   ],
   "variantsVerified": 72,
-  "variantMs": 5.747375000000005,
+  "variantMs": 6.172208999999995,
   "forgedRejected": 1000,
   "forgedAttempts": 1000,
   "humanValidation": "not measured"

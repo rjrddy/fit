@@ -28,7 +28,7 @@ make demo
 make lint test bench
 make feed
 ```
-Open http://127.0.0.1:18124. Demo installs locked dependencies and builds; Node 22.13+ required. Default edit token local-edit is for loopback only. Feed is optional and uses a public GET; the default demo is offline after setup. See [demo](docs/DEMO.md).
+Open http://127.0.0.1:18124. Demo installs locked dependencies and builds; Node 22.13+ required. Default edit token local-edit is for loopback only. Feed is optional and uses a public GET; the default demo is offline after setup. See [demo](docs/DEMO.md). A [recorded Node 20 failure](docs/results/fresh-clone-node20-failure.log) exposed an unsupported runtime; strict package engines now reject it during setup.
 
 ## 5. Decisions and limits
 **Partial:** independent human-ranked evaluation is missing. Frozen agent-authored development labels are subjective and are not held-out validation. See [raw results](docs/results/benchmark.json), including per-profile losses. Baseline uses full-posting TF-IDF cosine; policy uses recognized requirement skills, required weight 1, preferred 0.25, and a linear experience factor. No training, outcome calibration or hiring-probability claim.
@@ -41,7 +41,7 @@ The exact career-ops-juiced directory was absent. Fit extends a reviewed MIT-lic
 
 Public postings come only from the [official Greenhouse public Job Board API](https://docs.greenhouse.io/job-board). The bundled historical snapshot retains factual normalized skill metadata and hashes, not raw description prose; no scraping or applications. Company names identify public sources, not users or sponsors. [Fetch receipt](docs/results/public-feed-provenance.json).
 
-The UI is an original cobalt/acid editorial shortlist; source-value rows were informed by the [GOV.UK summary-list pattern](https://design-system.service.gov.uk/components/summary-list/). No third-party visual assets copied. Docker/Render configuration is preparation, not a hosted availability claim.
+The UI is an original cobalt/acid editorial shortlist; source-value rows were informed by the [GOV.UK summary-list pattern](https://design-system.service.gov.uk/components/summary-list/). No third-party visual assets copied. Docker/Render configuration is preparation, not a hosted availability claim. Render free-tier storage is ephemeral; durable local receipts require the Compose volume.
 
 ## 6. Next
 Independent blinded relevance labels and held-out roles; richer clause/negation parsing; consented private local import; authenticated per-user storage; accessible manual usability study; no autonomous applications.
