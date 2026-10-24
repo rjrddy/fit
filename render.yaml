@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fit-evidence
+    runtime: docker
+    plan: free
+    # Free service storage is ephemeral: receipts can disappear on restart.
+    envVars:
+      - key: FIT_DB
+        value: /tmp/fit.sqlite
+      - key: FIT_TOKEN
+        generateValue: true

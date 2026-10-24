@@ -1,0 +1,9 @@
+services:
+  fit:
+    build: .
+    ports: ["127.0.0.1:18124:18124"]
+    environment:
+      FIT_TOKEN: ${FIT_TOKEN:?Set a distinct edit token}
+    volumes: ["fit-data:/data"]
+volumes:
+  fit-data:

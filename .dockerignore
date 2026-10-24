@@ -1,0 +1,5 @@
+node_modules
+.git
+*.sqlite*
+docs/results/browser
+.cache
