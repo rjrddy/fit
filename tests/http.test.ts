@@ -29,7 +29,7 @@ test("HTTP auth, forged claims, stale hashes, restart durability and safe errors
       } catch {}
       await new Promise((r) => setTimeout(r, 50));
     }
-    throw Error("startup_failed");
+    throw Error("startup_failed: " + logs);
   }
   async function stop() {
     if (child && child.exitCode === null) {

@@ -1,0 +1,121 @@
+Cloning into '/var/folders/tx/r4bmp29x58v41hgmtzrwwx3h0000gn/T/fit-clean-clone-8tdwy9xj/fit'...
+done.
+npm ci
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'fit-evidence@0.1.0',
+npm warn EBADENGINE   required: { node: '>=22' },
+npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+npm warn EBADENGINE }
+
+added 24 packages, and audited 25 packages in 2s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+npm run build
+
+> fit-evidence@0.1.0 build
+> tsc -p tsconfig.node.json && tsc -p tsconfig.web.json && vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 28 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/index.html                   0.56 kB │ gzip:  0.35 kB
+dist-web/assets/index-J-EAUhIP.css    6.67 kB │ gzip:  2.06 kB
+dist-web/assets/index-B6WIgCSq.js   203.42 kB │ gzip: 64.07 kB
+✓ built in 454ms
+npm run lint
+
+> fit-evidence@0.1.0 lint
+> tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.web.json && prettier --check src scripts tests *.json *.ts index.html
+
+Checking formatting...
+All matched files use Prettier code style!
+npm test
+
+> fit-evidence@0.1.0 test
+> node --test dist-node/tests/*.test.js
+
+TAP version 13
+# Subtest: all profile/job variants retain exact source bullets and offsets
+ok 1 - all profile/job variants retain exact source bullets and offsets
+  ---
+  duration_ms: 17.869125
+  ...
+# Subtest: 1000 deterministic forged variants fail closed
+ok 2 - 1000 deterministic forged variants fail closed
+  ---
+  duration_ms: 23.359291
+  ...
+# Subtest: negated experience and learning do not count as evidence
+ok 3 - negated experience and learning do not count as evidence
+  ---
+  duration_ms: 0.399291
+  ...
+# Subtest: fork metadata never earns source proof
+ok 4 - fork metadata never earns source proof
+  ---
+  duration_ms: 0.184375
+  ...
+# Subtest: requirements exclude company keyword bait; seniority penalizes
+ok 5 - requirements exclude company keyword bait; seniority penalizes
+  ---
+  duration_ms: 0.341125
+  ...
+# Subtest: synthetic inputs required and spans use UTF16
+ok 6 - synthetic inputs required and spans use UTF16
+  ---
+  duration_ms: 0.093
+  ...
+# Subtest: ordinary go is not Go; alternative clauses are explicit
+ok 7 - ordinary go is not Go; alternative clauses are explicit
+  ---
+  duration_ms: 0.129208
+  ...
+# Subtest: feed HTML is converted to data and scripts discarded
+ok 8 - feed HTML is converted to data and scripts discarded
+  ---
+  duration_ms: 1.064167
+  ...
+# Subtest: public normalization does not retain prose or contact text
+ok 9 - public normalization does not retain prose or contact text
+  ---
+  duration_ms: 1.948
+  ...
+# Subtest: board input cannot select arbitrary hosts or files
+ok 10 - board input cannot select arbitrary hosts or files
+  ---
+  duration_ms: 0.349625
+  ...
+# Subtest: HTTP auth, forged claims, stale hashes, restart durability and safe errors
+not ok 11 - HTTP auth, forged claims, stale hashes, restart durability and safe errors
+  ---
+  duration_ms: 5313.518916
+  location: '/private/var/folders/tx/r4bmp29x58v41hgmtzrwwx3h0000gn/T/fit-clean-clone-8tdwy9xj/fit/dist-node/tests/http.test.js:10:1'
+  failureType: 'testCodeFailure'
+  error: 'startup_failed'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    start (file:///private/var/folders/tx/r4bmp29x58v41hgmtzrwwx3h0000gn/T/fit-clean-clone-8tdwy9xj/fit/dist-node/tests/http.test.js:34:15)
+    async TestContext.<anonymous> (file:///private/var/folders/tx/r4bmp29x58v41hgmtzrwwx3h0000gn/T/fit-clean-clone-8tdwy9xj/fit/dist-node/tests/http.test.js:53:9)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 10
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5366.035625
+make: *** [test] Error 1
