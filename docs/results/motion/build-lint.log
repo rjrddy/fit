@@ -1,6 +1,6 @@
-src/web/motion.ts 74ms
-src/web/main.tsx 42ms (unchanged)
-src/web/style.css 45ms (unchanged)
+src/web/motion.ts 72ms
+src/web/main.tsx 41ms (unchanged)
+src/web/style.css 48ms (unchanged)
 
 > fit-evidence@0.1.0 lint
 > tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.web.json && prettier --check src scripts tests *.json *.ts index.html
@@ -18,5 +18,5 @@ rendering chunks...
 computing gzip size...
 dist-web/index.html                   0.56 kB │ gzip:  0.35 kB
 dist-web/assets/index-Cv9op3YL.css    6.81 kB │ gzip:  2.14 kB
-dist-web/assets/index-CWZFEu7G.js   207.01 kB │ gzip: 65.40 kB
-✓ built in 502ms
+dist-web/assets/index-q_mqdmZL.js   207.02 kB │ gzip: 65.42 kB
+✓ built in 412ms

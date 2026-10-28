@@ -2,7 +2,7 @@
   "project": "fit",
   "motion_profile": "Shortlist tabs and source registration",
   "source_sha256": {
-    "src/web/motion.ts": "57aa8244f7c48fffcc3616c450e44778241277701e3f18b030599afd199e9bbc",
+    "src/web/motion.ts": "e78fd24f74026f9ccad3610cccc38fa083a278d3200ccf56542dfc413ccebbab",
     "src/web/style.css": "2dc887c41d9b4f272e0089b9f0b911dbb00943bbf25681faff1daffb945615d3"
   },
   "frontend_build_lint": "passed",

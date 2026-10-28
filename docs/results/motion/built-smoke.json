@@ -30,7 +30,7 @@
         "iterations": 1,
         "fill": "none"
       },
-      "at": 453.60000002384186
+      "at": 427.7999999523163
     },
     {
       "tag": "BUTTON",
@@ -54,31 +54,7 @@
         "iterations": 1,
         "fill": "none"
       },
-      "at": 453.60000002384186
-    },
-    {
-      "tag": "BUTTON",
-      "cls": "job ",
-      "id": "",
-      "frames": [
-        {
-          "transform": "translateX(0) scaleX(1)"
-        },
-        {
-          "transform": "translateX(2px) scaleX(0.985)",
-          "offset": 0.28
-        },
-        {
-          "transform": "translateX(0) scaleX(1)"
-        }
-      ],
-      "options": {
-        "duration": 190,
-        "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "iterations": 1,
-        "fill": "none"
-      },
-      "at": 453.7000000476837
+      "at": 427.7999999523163
     }
   ]
 }
