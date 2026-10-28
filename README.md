@@ -31,6 +31,9 @@ make feed
 Open http://127.0.0.1:18124. Demo installs locked dependencies and builds; Node 22.13+ required. Default edit token local-edit is for loopback only. Feed is optional and uses a public GET; the default demo is offline after setup. See [demo](docs/DEMO.md). A [recorded Node 20 failure](docs/results/fresh-clone-node20-failure.log) exposed an unsupported runtime; strict package engines now reject it during setup.
 
 ## 5. Decisions and limits
+
+Contextual motion uses finite transform-only responses to real controls and changed evidence, with live reduced-motion cancellation. See [motion design and validation](docs/MOTION.md); frame rate is not measured.
+
 **Partial:** independent human-ranked evaluation is missing. Frozen agent-authored development labels are subjective and are not held-out validation. See [raw results](docs/results/benchmark.json), including per-profile losses. Baseline uses full-posting TF-IDF cosine; policy uses recognized requirement skills, required weight 1, preferred 0.25, and a linear experience factor. No training, outcome calibration or hiring-probability claim.
 
 Only synthetic CV and GitHub-shaped records are accepted; a synthetic marker is a format constraint, not a privacy detector. Repository language metadata is a hint, never authorship/proficiency evidence. Skill negation is a conservative whole-line heuristic, not semantic entailment. Requirements use headings and lexical aliases; extraction accuracy on public jobs is not measured. Unsupported clauses need manual review. Alternative clauses and years are approximate.
